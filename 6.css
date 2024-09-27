@@ -1,0 +1,353 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: darkslategray;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+header {
+    color: white;
+    position: sticky; /* Фиксирует элемент при скролле */
+    top: 0; /* Отступ от верхней части */
+    z-index: 1000; /* Повышает уровень по сравнению с другими элементами */
+}
+
+.main-container1{
+    width: 1080px; /* Фиксированная ширина */
+    height: 103px; /* Фиксированная высота */
+    display: flex;
+    justify-content: space-between;
+    background-color: #f7f7f7;
+    margin: 0 auto;
+}
+.left-container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    padding: 10px;
+}
+.right-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 45%;
+    gap: 30px;
+    align-items: center;
+}
+.box2 {
+    display: flex;
+    width: 100px; /* Фиксированная ширина */
+    height: 43px; /* Фиксированная высота */
+    justify-content: center;
+    align-items: center;
+}
+.main-container {
+    width: 1080px; /* Фиксированная ширина */
+    height: 350px; /* Фиксированная высота */
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    margin:0 auto;
+}
+.left-container{
+    width: 520px; /* Фиксированная ширина */
+    height: 330px; /* Фиксированная высота */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+p {
+    font-size: 25px;
+}
+h1 {
+    font-size: 35px;
+
+}
+button {
+    color: black;
+    background: transparent;
+    width: 150px; /* Фиксированная ширина */
+    height: 50px; /* Фиксированная высота */
+    border-radius: 10px;
+    margin:0 auto;
+}
+
+button:hover {
+    background: white;
+}
+img{
+    margin-right: 50px;
+}
+.rectangle{
+    display: flex;
+    width: 1080px; /* Фиксированная ширина */
+    height: 210px; /* Фиксированная высота */
+    background-color: #f7f7f7;
+    margin: 0 auto;
+    position: relative;
+}
+.box3{
+    display: flex;
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    background-color: #ababab;;
+    position: absolute;
+    bottom: 90px;
+    left: 505px;
+}
+.box4{
+    display: flex;
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    background-color: #ababab;
+    position: absolute;
+    bottom: 60px;
+    left: 715px;
+}
+.box5{
+    display: flex;
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    background-color: #ababab;
+    position: absolute;
+    bottom: 60px;
+    left: 295px;
+}
+.box6{
+    display: flex;
+    height: 25px;
+    width: 70px;
+    position: absolute;
+    bottom: 165px;
+    left: 505px;
+    justify-content: center; /* Горизонтальное выравнивание */
+    align-items: center;     /* Вертикальное выравнивание */
+}
+b {
+    font-size: 25px;
+}
+.box7{
+    display: flex;
+    height: 25px;
+    width: 100px;
+    position: absolute;
+    bottom: 50px;
+    left: 490px;
+    justify-content: center; /* Горизонтальное выравнивание */
+    align-items: center;     /* Вертикальное выравнивание */
+}
+.box8{
+    display: flex;
+    height: 25px;
+    width: 70px;
+    position: absolute;
+    bottom: 135px;
+    left: 295px;
+    justify-content: center; /* Горизонтальное выравнивание */
+    align-items: center;     /* Вертикальное выравнивание */
+}
+.box9{
+    display: flex;
+    height: 25px;
+    width: 70px;
+    position: absolute;
+    bottom: 135px;
+    left: 715px;
+    justify-content: center; /* Горизонтальное выравнивание */
+    align-items: center;     /* Вертикальное выравнивание */
+}
+.rectangle2{
+        width: 1080px;           /* Ширина блока на 100% */
+        height: 990px;         /* Фиксированная высота блока */
+        background-color: #f7f7f7;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
+#my-section {
+    text-align: center;
+}
+.box10 img {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    margin: 10px; /* Задает расстояние между элементами */
+    object-fit: none;
+
+}
+.box11 img {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    margin: 10px; /* Задает расстояние между элементами */
+    object-fit: fill;
+
+}
+.box12 img {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    margin: 10px; /* Задает расстояние между элементами */
+    object-fit: cover;
+}
+h2{
+    margin: 0 auto;
+}
+.box10{
+    display: flex;
+    height: 330px;
+    width: 1080px;
+    background-image: url("https://avatars.mds.yandex.net/i?id=506dcf390854de9f3300f6f5186796f85772b35a-10811924-images-thumbs&n=13");
+    background-size: cover;  /* Фон растягивается на весь элемент, сохраняя пропорции */
+    background-repeat: no-repeat;  /* Отключаем повторение фона */
+    text-align: center;
+    align-items: center;
+    line-height: 1.5;
+    position: relative;
+}
+.box11{
+    display: flex;
+    height: 330px;
+    width: 1080px;
+    background-size: cover;  /* Фон растягивается на весь элемент, сохраняя пропорции */
+    background-repeat: no-repeat;  /* Отключаем повторение фона */
+    background-image: url("https://avatars.mds.yandex.net/i?id=392ca5872f22667b12ff2b0b17585f025adcdafc-5231753-images-thumbs&n=13");
+    justify-content: flex-end;
+    position: relative;
+}
+.box12{
+    display: flex;
+    height: 330px;
+    width: 1080px;
+    background-image: url("https://avatars.mds.yandex.net/i?id=0dc2c3fd384ad23ffb1880878c967137ca37f056-9271342-images-thumbs&n=13");
+    background-size: cover;  /* Фон растягивается на весь элемент, сохраняя пропорции */
+    background-repeat: no-repeat;  /* Отключаем повторение фона */
+    position: relative;
+}
+.container1{
+    display: flex;
+    height: 300px;
+    width: 400px;
+    right: 30px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+
+}
+.container2{
+    display: flex;
+    height: 300px;
+    width: 350px;
+    left: 30px; /* Внешний отступ 20px от левого края */
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+
+}
+.container3 {
+    display: flex;
+    height: 300px;
+    width: 350px;
+    right: 30px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+
+}
+.rectangle3{
+    width: 1080px;           /* Ширина блока на 100% */
+    height: 300px;         /* Фиксированная высота блока */
+    background-color: #b4b4b4;
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+}
+#my-section1 {
+    text-align: center;
+}
+.container4{
+    height: 200px;
+    width: 30px;
+    position: absolute;
+    bottom: 40px;
+    left: 425px;
+
+
+}
+.circle{
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin: 15px;
+}
+.text-container {
+    height: 200px;
+    width: 70px;
+    position: absolute;
+    bottom: 40px;
+    font-size: 25px; /* Размер шрифта */
+    line-height: 40px;
+    left: 480px;
+    text-align: center;
+    top: 66px;
+
+
+}
+.text-container1 {
+    height: 20px;
+    width: 150px;
+    position: absolute;
+    text-align: center;
+    left: 465px;
+    top: 20px;
+}
+footer  {
+    background-color: #8e8e8e;
+    color: white;
+    margin: 0 auto;
+    width: 1080px; /* Фиксированная ширина */
+    height: 103px; /* Фиксированная высота */
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.box13{
+    display: flex;
+    height: 50px;
+    width: 250px;
+    position: absolute;
+    left: 20px;
+    align-items: center;
+    justify-content: left;
+}
+.box14{
+    display: flex;
+    height: 50px;
+    width: 200px;
+    position: absolute;
+    right: 20px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+
